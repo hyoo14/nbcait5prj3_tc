@@ -1,30 +1,16 @@
-
-
-
-
-
-
-
-
 # 
 
+# Topic Classification Project
 
+It is a task to classify the topic of the text from a Data-Centric perspective without changing the model structure.
 
+#Boostcamp 5th #NLP
 
+Period| 2023.05.24 ~ 2023.06.01 19:00
 
-# 주제 분류 프로젝트
+[한글로 보기](https://github.com/bootcamphyunwoo/naver_bcait5_lv2_prj3_nlp_tc-datacentric)
 
-
-
-모델 구조의 변경 없이 Data-Centric 관점으로 텍스트의 주제를 분류하는 태스크입니다.
-
-#부스트캠프5기 #자연어처리
-
-종료| 2023.05.24 ~ 2023.06.01 19:00
-
-
-
-## 개요
+## Overview
 
 우리는 살아가면서 다양한 자연어 문장들을 마주하게 됩니다. 초등학교 때 쓰던 알림장에서부터, 시험 공부를 위해 들여다본 책이나, 성인이 된 후에도 계속해서 정보를 얻기 위한 글이나, 영상의 자막 모두 자연어 문장들로 이루어져 있습니다. 하다 못해 지인들과 주고 받는 메세지와 편지들, 업무 전달을 위한 메신저와 문서들도 모두 자연어 문장들로 이루어져 있습니다. 어렸을 때부터 우리는 무의식적으로 각 자연어 문장들이 어떤 주제로 이루어져 있는지 판단 후 내용을 파악하게 됩니다.
 
@@ -36,7 +22,7 @@
 
 그 중에서도 KLUE-Topic Classification benchmark는 뉴스의 헤드라인을 통해 그 뉴스가 어떤 topic을 갖는지를 분류해내는 task입니다. 각 자연어 데이터에는 생활문화(Society), 스포츠(Sports), 세계(World), 정치(Politics), 경제(Economy), IT과학(IT/Science), 사회(Society) 등 다양한 주제 중 하나가 라벨링 되어 있습니다.
 
-### 데이터
+### Data
 
 본 대회는 결과물 csv 확장자 파일을 제출하게 됩니다.
 
@@ -44,7 +30,7 @@
 
 - output : 각 뉴스 헤드라인의 주제 (생활문화, 스포츠, 세계, 정치, 경제, IT과학, 사회 중 하나)
 
-### 룰
+### Competition Rule
 
 Data-Centric 의 취지에 맞게, 베이스라인 모델의 수정 없이 오로지 데이터의 수정으로만 성능 향상을 이끌어내야 합니다. 베이스라인 코드의 수정이 없는 선에서, 모든 방법을 적용할 수 있습니다. 대회 종료 후 베이스라인 코드의 변경이 확인되는 경우, 리더보드에서 제외됩니다.
 
@@ -74,7 +60,7 @@ Data-Centric 의 취지에 맞게, 베이스라인 모델의 수정 없이 오�
 
 Data-Centric NLP 강의의 취지에 맞게 데이터의 변경만 가능합니다. 이에 따라, 대회 종료 후 베이스라인 코드의 변경 여부를 검사하게 됩니다. 만약 코드 변경이 확인되는 경우 리더보드에서 제외됩니다.
 
-### 세부일정
+### Detailed Timeline
 
 - 프로젝트 전체 기간 (2주) : 5월 22일 (월) 10:00 ~ 6월 1일 (목) 19:00
 
@@ -92,7 +78,7 @@ Data-Centric NLP 강의의 취지에 맞게 데이터의 변경만 가능합니�
 
 - GPU 서버 회수 : 6월 2일 (금) 16:00
 
-### 대회 세부 룰
+### Detailed Competition Rule
 
 - [대회 참여 제한] NLP 도메인을 수강하고 있는 캠퍼에 한하여 리더보드 제출이 가능합니다.
 
@@ -142,7 +128,7 @@ AI Stages 대회 공통사항
 
 - 타 참가자와 토론이 아닌 단순 솔루션을 캐내는 행위
 
-## 데이터 상세
+## Detailed Dataset
 
 대회에서 사용되는 데이터셋은 KLUE 공식 사이트에서 제공하는 KLUE-TC(YNAT) 데이터셋과 같은 포맷을 가집니다. 제공되는 총 학습 데이터는 45,678개(traintest split을 거친 후의 train data는 31,974개, evaluation dataset는 13,704개)이며, 테스트 데이터는 9,107개 입니다.
 
@@ -230,19 +216,17 @@ Download Baseline Code Link
 
 https://aistages-prod-server-public.s3.amazonaws.com/app/Competitions/000245/data/code.tar.gz
 
-### 리더보드
+### Leader Board
 
 ![](https://lh6.googleusercontent.com/wcMyA-LNUplbKiuUBqTT6EwE1txLLC44QspGAum-ovwlUilxMjScmm-LAgCqc8799lupPx9PtshxoX4xRXWg6zGI0ZKDNeeF95an2aPD0fgvgWXHCte6DOQqACk6Y5sWTJimZZjKIafzmtGKcuVPw24)
 
 ![](https://lh5.googleusercontent.com/FdXK-EUzMgxT8snqt2thrqZkALnH1FDTLY0AXwb-cNyxqVo4CE10cu9K-7Z4BfXzjbx-xv2Hnp1f8kGzavhVnT8I7CAk8EdzoS4LRnTnAX8a4eilTa5uM6A1XmtyptrRw2Axtp4M9Vzf3eYnfWkHeOY)
 
-### 기타 공유 사항
+### ETC
 
 [토론] (공유) Data-Centric AI 기반 다양한 합성 데이터 제작 기법 소개
 
 Posted by 유하늘_조교
-
-
 
 양질의 데이터 제작을 위해 human-in-the-loop, human-machine-in-the-loop 등 다양한 시스템이 제안되었는데요. 이와 관련해서는 Human-Centered Artificial Intelligence (HAI)라는 키워드로의 검색을 추천 드립니다. 조금 긴 자료이지만 Stanford의 Institute for HAI에서 출간한 [<On the Opportunities and Risks of Foundation Models>](https://crfm.stanford.edu/report)에서도 관련 내용을 짧게 소개하고 있습니다.
 
@@ -309,15 +293,11 @@ ChatGPT의 출시 이후 ChatGPT(gpt-3.5-turbo)의 데이터 라벨링 성능에
 
 마지막으로, 이번 토론 콘텐츠에서 소개해드린 연구 이외에도 정말 다양한 Data-Centric AI 기반 합성 데이터 제작 기법이 고안되고 있는데요. 캠퍼 분들께서 알고 계시는 다양한 연구를 댓글이나 게시글로 공유해보면 좋을 것 같습니다. 이상입니다.
 
-
-
 [토론] [공유] Data-Centric AI기반 다양한 데이터 증강 기법 소개
 
 Posted by 심미단_조교
 
 2023.05.10.09:48
-
-
 
 딥러닝 모델을 학습시키는 목적이나 task에 따라, 학습 데이터가 충분하지 않은 경우가 존재합니다. 이런 경우를 ‘low-resource setting’ 이라 표현합니다. 충분한 양,질의 데이터는 성능 향상을 위한 중요한 역할을 하기 때문에, 학계에서는 이러한 low resource setting를 극복하기 위한 다양한 연구가 이루어지고 있습니다. 그 중에서도 데이터 자체의 양을 늘림으로서 충분한 분량의 학습 데이터를 확보하는 데이터 증강(data augmentation)은 low resource setting에서 많이 사용되는 기법 중 하나입니다.
 
@@ -471,8 +451,6 @@ df.to_csv('augmenteddataset.csv', index = False)
 
 그 외에도 데이터 증강에서의 고민이나 다른 데이터 증강 방법론 등 공유하고 싶은 내용이 있으시면 토론 게시판에 마구마구 작성해주세요:)
 
-
-
 [토론] (공유) Data-Centric AI 기반 Label Error Detection 기법 소개
 
 Posted by 박가연_조교
@@ -543,8 +521,6 @@ health_summary(dataset_train['target'], train_pred_probs, class_names=class_name
 이렇게 데이터셋 내 에러를 찾는 것 외에도 cleanlab은 아웃라이어를 탐지하거나, 겹치는 클래스를 알려주는 등 다양한 기능을 제공하고 있습니다. [cleanlab documentation](https://docs.cleanlab.ai/stable/index.html)을 참고하셔서 다양한 기능을 체험해본 후 직접 적용해보시면 좋을 것 같습니다. 
 
 이번 토론에서 논의해볼 사항은 다음과 같습니다. label error를 통해 데이터를 정제하는 과정에서 과연 노이즈를 어느 정도까지 제거해야 성능이 잘 나올까요? 잘못된 라벨링이라고  판단된 모든 데이터를 지우면 성능이 올라갈까요? 노이즈와 데이터의 균형 관점에서 캠퍼분들이 생각하시는 최적의 기법이 무엇인지, 노이즈를 어디까지 허용하면 좋을지 등 다양한 의견을 공유해주세요~!
-
-
 
 [토론] (공유) KLUE 데이터셋 소개 및 KLUE를 인용한 다양한 한국어 자연어처리 연구 소개
 
@@ -659,12 +635,6 @@ KLUE 데이터셋과 KLUE를 기반으로 한 다양한 연구들이 한국어 �
 - KLEU-STS 데이터를 확보하기 위해 사용된 Round-Trip Translation(RTT) 기법을 KLEU 내 다른 task에 대해서도 활용할 수 있을까요?
 
 - Rethinking Annotation 논문에서는 non-native annotator들이 감성 분석, 자연어 추론, 개체명 인식, 기계 독해 총 4개의 task에 대해 충분한 annotation 능력을 가짐을 보였습니다. 일반적으로 각각의 자연어처리 task들은 서로 다른 난이도를 가집니다. 같은 summarization task라고 하더라도 abstractive summarization이 extractive summarization보다 더 어렵다고 여겨지는 것처럼 말이에요. 그렇다면 KLEU에 존재하는 다른 task들에 대해서는 어떨까요? 위 4개의 task를 제외한 다른 task들에 대해서도 non-native speaker들이 충분히 뛰어난 annotation 능력을 보일 수 있을까요?
-
-
-
-
-
-
 
 ## 프로젝트 팀에서진행된 규칙
 
