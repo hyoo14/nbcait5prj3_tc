@@ -22,6 +22,24 @@ Period| 2023.05.24 ~ 2023.06.01 19:00
 
 그 중에서도 KLUE-Topic Classification benchmark는 뉴스의 헤드라인을 통해 그 뉴스가 어떤 topic을 갖는지를 분류해내는 task입니다. 각 자연어 데이터에는 생활문화(Society), 스포츠(Sports), 세계(World), 정치(Politics), 경제(Economy), IT과학(IT/Science), 사회(Society) 등 다양한 주제 중 하나가 라벨링 되어 있습니다.
 
+## Approaches
+
+### EDA
+
+#### Augmentation with LLM
+
+Augmenting with LLM. We have used ChatGPT 3.5 for augmenting data. We focused on labels which portion is small. By this work, we made distribution more flatten.
+
+#### Backtranslation
+
+We have used Naver papago translation api and google translation api for backtranslation. By this approach we can augment our dataset.
+
+### Topic Model
+
+We have used BERTopic to extract topic from data. BERTopic is model which consists of BERT LM and TF-IDF model. We expected that this model will help to find appropriate topic. However, result was not like our expectation. If this work was sucessful, we had a plan to use BERT Score to find exact topic matching with BERTopic's topic.
+
+### 
+
 ### Data
 
 본 대회는 결과물 csv 확장자 파일을 제출하게 됩니다.
