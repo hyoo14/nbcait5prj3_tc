@@ -4,7 +4,7 @@
 
 It is a task to classify the topic of the text from a Data-Centric perspective without changing the model structure.
 
-#Boostcamp 5th #NLP
+#BC 5th #NLP
 
 Period| 2023.05.24 ~ 2023.06.01 19:00
 
